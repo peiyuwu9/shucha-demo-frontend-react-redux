@@ -1,0 +1,7 @@
+export const LOADING_USER = "LOADING_USER";
+export const LOGIN_USER = "LOGIN_USER";
+export const LOGOUT_USER = "LOGOUT_USER";
+export const MARK_NOTIFICATIONS_READ = "MARK_NOTIFICATIONS_READ";
+export const SET_USER = "SET_USER";
+export const USER_LIKE_POST = "USER_LIKE_POST";
+export const USER_UNLIKE_POST = "USER_UNLIKE_POST";

@@ -1,0 +1,10 @@
+export const CLEAR_POST = "CLEAR_POST";
+export const LIKE_POST = "LIKE_POST";
+export const LOADING_ALL_POSTS = "LOADING_ALL_POSTS";
+export const LOADING_SINGLE_POST = "LOADING_SINGLE_POST";
+export const DELETE_POST = "DELETE_POST";
+export const SET_NEW_POST = "SET_NEW_POST";
+export const SET_POST = "SET_POST";
+export const SET_POSTS = "SET_POSTS";
+export const SUBMIT_COMMENT = "SUBMIT_COMMENT";
+export const UNLIKE_POST = "UNLIKE_POST";

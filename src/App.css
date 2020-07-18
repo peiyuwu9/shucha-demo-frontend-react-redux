@@ -1,38 +1,131 @@
-.App {
+.container {
+  margin: 80px auto 0 auto;
+  width: 320px;
+}
+
+.jss3 {
+  left: 38%;
+  top: 8px;
+}
+
+.MuiDrawer-paper {
+  width: 150px;
+}
+
+.MuiListItemText-root {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.user-menu-button,
+.user-menu-name-tag {
+  visibility: visible;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.user-button,
+.user-name-tag {
+  visibility: hidden;
+}
+
+.post-detail .MuiDialog-paper {
+  width: 300px;
+  transform: translateX(-8px);
+}
+
+.post-detail .MuiDialog-paper {
+  margin: 8px;
+}
+
+.MuiCard-root,
+.detail-post-card {
+  margin: 0 auto;
+  width: 140px;
+}
+
+.MuiCardMedia-root,
+.detail-post-image {
+  height: 140px;
+  width: 140px;
+}
+
+.MuiCardMedia-root:hover {
+  cursor: pointer;
+}
+
+.form-panel {
+  width: 300px;
+  margin: 20px auto 0px auto;
+}
+
+.form {
+  text-align: center;
+}
+
+.form-title {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.form-button {
+  width: 78px;
+}
+
+@media screen and (min-width: 600px) {
+  .container {
+    width: 560px;
+  }
+
+  .jss3 {
+    left: 45%;
+    top: 12px;
+  }
+
+  .MuiDrawer-paper {
+    width: 200px;
+  }
+
+  .user-menu-button,
+  .user-menu-name-tag {
+    visibility: hidden;
+  }
+
+  .user-button,
+  .user-name-tag {
+    visibility: visible;
+  }
+
+  .Navbar-nameTag-6 {
+    visibility: visible;
+  }
+
+  .Navbar-nameTag-6 {
+    transform: translateX(0px);
+  }
+
+  .post-detail .MuiDialog-paper {
+    width: 630px;
+    transform: translateX(-8px);
+  }
+
+  .MuiCard-root,
+  .detail-post-card {
+    margin: 0 auto;
+    width: 180px;
+  }
+
+  .MuiCardMedia-root,
+  .detail-post-image {
+    height: 180px;
+    width: 180px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (min-width: 960px) {
+  .container {
+    width: 780px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .post-detail .MuiDialog-paper {
+    width: 900px;
+    transform: translateX(-8px);
   }
 }
